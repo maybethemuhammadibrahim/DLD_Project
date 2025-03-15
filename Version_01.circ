@@ -88,7 +88,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(460,540)" name="Probe">
+    <comp lib="0" loc="(450,530)" name="Probe">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
     </comp>
@@ -107,7 +107,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(580,540)" name="Probe">
+    <comp lib="0" loc="(570,530)" name="Probe">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
     </comp>
@@ -221,10 +221,13 @@
     <comp lib="8" loc="(405,565)" name="Text">
       <a name="text" val="LSB"/>
     </comp>
-    <comp lib="8" loc="(570,570)" name="Text">
+    <comp lib="8" loc="(41,316)" name="Text">
+      <a name="text" val="LSB"/>
+    </comp>
+    <comp lib="8" loc="(570,571)" name="Text">
       <a name="text" val="-&gt;"/>
     </comp>
-    <comp lib="8" loc="(730,570)" name="Text">
+    <comp lib="8" loc="(731,571)" name="Text">
       <a name="text" val="MSB"/>
     </comp>
     <comp lib="8" loc="(85,245)" name="Text">
