@@ -1,15 +1,32 @@
-# DLD Project Updates
+# Logisim DLD Calculator
 
-## Phase 1
-Implemented a basic 8-bit adder with temporary input pins and output probes. Moreover, in order to perform subtraction I used the same adder circuit with an XOR gate with every bit of 'B'. The "First" input in XOR is "SUB" which will be 0 if addition is being performed and 1 if subtraction is being performed, and the "Second" input in XOR is a 'B' bit. 
+A simple calculator built in Logisim using basic logic gates and custom ICs for Digital Logic Design.
 
-### **Truth Table for a Single Bit of B**
+## Features
+- Addition
+- Subtraction  
+- Array Multiplication
+- Binary input/output
 
-Each row shows the transformation of B under different conditions.
+## Quick Start
+1. Install [Logisim](http://www.cburch.com/logisim/)
+2. Open `calculator.circ`
+3. Use input switches for binary numbers
+4. Select operation
+5. Read output on display
 
-|**B (Original)**|**SUB (Mode Selection)**|**B' (After XOR with SUB)**|**Carry-In to LSB**|**Final Effective B (2's Complement Effect)**|
-|---|---|---|---|---|
-|0|0|0|0|0 (Normal addition)|
-|1|0|1|0|1 (Normal addition)|
-|0|1|1|1|1 (2’s complement step: flipped 0 → 1, plus carry)|
-|1|1|0|1|0 (2’s complement step: flipped 1 → 0, plus carry)|
+## Screenshots
+*(Add your screenshots here)*
+
+**Main Interface:**
+<!-- ![calculator](screenshots/main.png) -->
+
+**Multiplier Circuit:**
+<!-- ![multiplier](screenshots/multiplier.png) -->
+
+## Project Structure
+- `calculator.circ` - Main circuit
+- Custom ICs: Adder, Subtractor, Array Multiplier
+- Binary input switches, output display
+
+Run the project by opening `calculator.circ` in Logisim and toggling the input switches.
